@@ -119,3 +119,15 @@ git checkout v1.0
 
 Returned to main branch:
 git checkout main
+
+## u) Create new branch + w) Switch to branch
+
+
+
+![u_w](image/u.png)
+
+Created new branch from main:
+git branch new-feature
+
+Switched to branch:
+git checkout new-feature

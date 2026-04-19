@@ -6,7 +6,6 @@ public class Main {
         int[] table = new int[5];
         Random rand = new Random();
 
-       
         for (int i = 0; i < table.length; i++) {
             table[i] = rand.nextInt(100);
         }
@@ -16,14 +15,19 @@ public class Main {
             System.out.print(table[i] + " ");
         }
 
+        // Selection sort
         for (int i = 0; i < table.length - 1; i++) {
-            for (int j = 0; j < table.length - 1 - i; j++) {
-                if (table[j] > table[j + 1]) {
-                    int temp = table[j];
-                    table[j] = table[j + 1];
-                    table[j + 1] = temp;
+            int minIndex = i;
+
+            for (int j = i + 1; j < table.length; j++) {
+                if (table[j] < table[minIndex]) {
+                    minIndex = j;
                 }
             }
+
+            int temp = table[i];
+            table[i] = table[minIndex];
+            table[minIndex] = temp;
         }
 
         System.out.println("\nAfter sorting:");
@@ -31,6 +35,4 @@ public class Main {
             System.out.print(table[i] + " ");
         }
     }
-
-    System.out.println("\nModification without commit");
 }
