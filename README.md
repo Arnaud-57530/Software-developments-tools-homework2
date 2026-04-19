@@ -86,4 +86,36 @@ Modified the code without committing changes.
 Used:
 git status
 
+## p) Push project to remote repository
 
+![p](image/p.png)
+
+Pushed project to GitHub using:
+git push origin main
+
+## r) Delete local project
+
+![r](image/r.png)
+
+Deleted local repository using:
+rm -rf software-developments-tools-homework2
+
+## s) Clone project from remote repository
+
+![s](image/s.png)
+
+Cloned project from GitHub using:
+git clone https://github.com/Arnaud-57530/Software-developments-tools-homework2.git
+
+## t) Create tag and switch between versions
+
+![t](image/t.png)
+
+Created tag:
+git tag v1.0
+
+Switched to tag:
+git checkout v1.0
+
+Returned to main branch:
+git checkout main
