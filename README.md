@@ -131,3 +131,10 @@ git branch new-feature
 
 Switched to branch:
 git checkout new-feature
+
+## x) Improve code in branch
+
+![x1](image/x1.png)
+![x2](image/x2.png)
+
+Changed the sorting algorithm in branch `new-feature` from bubble sort to selection sort.

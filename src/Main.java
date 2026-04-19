@@ -15,7 +15,7 @@ public class Main {
             System.out.print(table[i] + " ");
         }
 
-        // Selection sort
+        
         for (int i = 0; i < table.length - 1; i++) {
             int minIndex = i;
 
