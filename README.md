@@ -145,3 +145,14 @@ Changed the sorting algorithm in branch `new-feature` from bubble sort to select
 
 Merged branch `new-feature` into `main` using:
 git merge new-feature
+
+## z1) Create conflict
+
+![z1](image/z1.png)
+
+![z12](image/z12.png)
+
+Created conflict by modifying the same line in two branches.
+
+Merge resulted in conflict:
+git merge new-feature
