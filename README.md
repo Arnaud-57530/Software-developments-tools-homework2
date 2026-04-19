@@ -31,3 +31,14 @@ Added an array and displayed its elements.
 ## f) Commit changes
 
 ![f](image/f.png)
+
+## g) Initialize table with random values
+
+![g](image/g.png)
+
+Initialized array with random values.
+
+## h) Commit changes
+
+![h](image/h.png)
+
