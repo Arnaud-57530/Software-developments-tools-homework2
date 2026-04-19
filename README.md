@@ -156,3 +156,10 @@ Created conflict by modifying the same line in two branches.
 
 Merge resulted in conflict:
 git merge new-feature
+
+## z2) Solve conflict and push solution
+
+![z2](image/z2.png)
+![z22](image/z22.png)
+
+Resolved merge conflict in Main.java and pushed the solution to GitHub.
