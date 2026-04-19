@@ -10,7 +10,7 @@ public class Main {
             table[i] = rand.nextInt(100);
         }
 
-        System.out.println("Before sorting:");
+        System.out.println("FEATURE VERSION:");
         for (int i = 0; i < table.length; i++) {
             System.out.print(table[i] + " ");
         }
