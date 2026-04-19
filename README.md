@@ -21,3 +21,13 @@ Created a simple Java project with a Main class.
 Initial commit using:
 git add .
 git commit -m "Initial commit - empty Java project"
+
+## e) Add simple code (table)
+
+![e](image/e.png)
+
+Added an array and displayed its elements.
+
+## f) Commit changes
+
+![f](image/f.png)
