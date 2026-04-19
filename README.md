@@ -138,3 +138,10 @@ git checkout new-feature
 ![x2](image/x2.png)
 
 Changed the sorting algorithm in branch `new-feature` from bubble sort to selection sort.
+
+## y) Merge branch into main
+
+![y](image/y.png)
+
+Merged branch `new-feature` into `main` using:
+git merge new-feature
