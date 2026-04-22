@@ -1,32 +1,32 @@
-# Software Development Tools - Homework 2
+# Software Development Tools Homework 2   RASQUIN Arnaud
 
 ## a) Create remote repository
 ![a](image/a.png)
-Short description...
+
 
 ## b) Clone repository
 ![b](image/b.png)
-Used git clone
+I used git clone
 
 ## c) Create empty project
 
 ![c](image/c.png)
 
-Created a simple Java project with a Main class.
+Created a simple Java project with a Main class
 
 ## d) Commit project
 
 ![d](image/d.png)
 
-Initial commit using:
+Initial commit using
 git add .
-git commit -m "Initial commit - empty Java project"
+git commit -m ""
 
 ## e) Add simple code (table)
 
 ![e](image/e.png)
 
-Added an array and displayed its elements.
+Added an array and displayed its elements
 
 ## f) Commit changes
 
@@ -36,7 +36,7 @@ Added an array and displayed its elements.
 
 ![g](image/g.png)
 
-Initialized array with random values.
+Initialized array with random values
 
 ## h) Commit changes
 
@@ -46,7 +46,7 @@ Initialized array with random values.
 
 ![i](image/i.png)
 
-Implemented bubble sort algorithm.
+Implemented bubble sort algorithm
 
 ## j) Commit changes
 
@@ -56,14 +56,14 @@ Implemented bubble sort algorithm.
 
 ![k](image/k.png)
 
-Displayed commit history using:
+Displayed commit history using 
 git log
 
 ## l) Look at code annotations (git blame)
 
 ![l](image/l.png)
 
-Displayed code annotations using:
+Displayed code annotations using 
 git blame src/Main.java
 
 
@@ -71,33 +71,32 @@ git blame src/Main.java
 
 ![m1](image/m1.png)
 
-Switched to an older commit using:
+Switched to an older commit using 
 git checkout <commit_hash>
 
-Then returned to the main branch:
+Then returned to the main branch 
 ![m2](image/m2.png)
 
 ## n) Add changes without commit
 
 ![n](image/n.png)
 
-Modified the code without committing changes.
+Modified the code without committing changes using
 
-Used:
 git status
 
 ## p) Push project to remote repository
 
 ![p](image/p.png)
 
-Pushed project to GitHub using:
+Pushed project to GitHub using
 git push origin main
 
 ## r) Delete local project
 
 ![r](image/r.png)
 
-Deleted local repository using:
+Deleted local repository using
 rm -rf software-developments-tools-homework2
 
 ## s) Clone project from remote repository
@@ -126,10 +125,10 @@ git checkout main
 
 ![u_w](image/u.png)
 
-Created new branch from main:
+Created new branch from main :
 git branch new-feature
 
-Switched to branch:
+Switched to branch :
 git checkout new-feature
 
 ## x) Improve code in branch
@@ -137,13 +136,13 @@ git checkout new-feature
 ![x1](image/x1.png)
 ![x2](image/x2.png)
 
-Changed the sorting algorithm in branch `new-feature` from bubble sort to selection sort.
+Changed the sorting algorithm in branch `new-feature` from bubble sort to selection sort
 
 ## y) Merge branch into main
 
 ![y](image/y.png)
 
-Merged branch `new-feature` into `main` using:
+Merged branch `new-feature` into `main` using 
 git merge new-feature
 
 ## z1) Create conflict
@@ -152,9 +151,9 @@ git merge new-feature
 
 ![z12](image/z12.png)
 
-Created conflict by modifying the same line in two branches.
+Created conflict by modifying the same line in two branches
 
-Merge resulted in conflict:
+Merge resulted in conflict :
 git merge new-feature
 
 ## z2) Solve conflict and push solution
@@ -162,4 +161,4 @@ git merge new-feature
 ![z2](image/z2.png)
 ![z22](image/z22.png)
 
-Resolved merge conflict in Main.java and pushed the solution to GitHub.
+Resolved merge conflict in Main.java and pushed the solution to GitHub
